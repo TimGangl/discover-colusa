@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import History from './pages/History/History';
 import Visit from './pages/Visit/Visit';
@@ -12,7 +12,7 @@ import Maps from './pages/Maps/Maps';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import { fab, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import River from './pages/River/River';
 import Watermelon from './pages/Watermelon/Watermelon';
 // import { faFacebook, faInstagram } from '@fortawesome/free-solid-svg-icons'
